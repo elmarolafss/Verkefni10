@@ -1,0 +1,1 @@
+web: python Verkefni10.py
