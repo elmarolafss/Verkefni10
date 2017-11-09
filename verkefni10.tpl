@@ -16,7 +16,7 @@
 			Notendanafn:<br>
 			<input type="text" name="name" required><br>
 			Lykilorð:<br>
-			<input type="password" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Átta eða fleyri stafir, Þarf að hafa að minsta kosti eina tölu, einn lágstaf og einn hástaf" required><br>
+			<input type="password" name="psw" pattern="(?=.*[a-z]).{8,}" title="Átta eða fleyri stafir, Þarf að hafa að minsta kosti eina tölu, einn lágstaf og einn hástaf" required><br>
 <br>
 			<input type="submit" value="Nýskrá">
 		</form>
