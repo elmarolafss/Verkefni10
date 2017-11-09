@@ -3,7 +3,7 @@ from bottle import *
 import os
 
 
-@route("/nyskra")
+@route("/")
 def nyskra():
     return template("verkefni10.tpl")
 
