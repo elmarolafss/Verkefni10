@@ -8,8 +8,8 @@
 
 
 <form action="/sida" method="POST" accept-charset="ISO-8859-1">
-	<label><br>Notendanafn</b></label><br>
-	<input type="text" name="uname" required>
+	<label><br>Netfang</b></label><br>
+	<input type="email" name="uname" required>
 	<label><br>Lykilorð</b></label><br>
 	<input type="password" name="passw"><br>
 <br>
