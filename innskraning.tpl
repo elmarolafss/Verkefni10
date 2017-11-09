@@ -18,7 +18,7 @@
 <br>
 <br>
 </form>
-<form action="/nyskra">
+<form action="/">
 	<input type="submit" value="Nýskrá">
 </form>
 
