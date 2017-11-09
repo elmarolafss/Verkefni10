@@ -13,8 +13,8 @@
 	</form>
 		<form action="/gogn" method="POST" accept-charset="ISO-8859-1">
 			<h1>Nýskráning</h1>
-			Notendanafn:<br>
-			<input type="text" name="name" required><br>
+			Netfang:<br>
+			<input type="email" name="name" required><br>
 			Lykilorð:<br>
 			<input type="password" name="psw" pattern="(?=.*[a-z]).{8,}" title="Átta eða fleyri stafir, Þarf að hafa að minsta kosti eina tölu, einn lágstaf og einn hástaf" required><br>
 <br>
