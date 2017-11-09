@@ -1,6 +1,6 @@
 import pymysql
 from bottle import *
-
+import os
 
 
 @route("/nyskra")
@@ -45,4 +45,4 @@ def sida():
 
 
 
-run(host="localhost", port=8080, debug=True)
+run(host="0.0.0.0", port=os.environ.get("PORT"), debug=True)
