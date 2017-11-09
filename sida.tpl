@@ -5,7 +5,7 @@
 </head>
 <body>
 	<h1>þú ert skráður inn</h1>
-<form action="/nyskra">
+<form action="/">
 	<input type="submit" value="Skrá út">
 </form>
 </body>
